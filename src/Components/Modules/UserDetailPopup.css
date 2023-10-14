@@ -1,0 +1,31 @@
+.Popup-container {
+  background-color: rgba(243, 243, 243, 0.9);
+  width: 400px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Popup-container h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+.Popup-container p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.Popup-container button {
+  padding: 5px 37px;
+  font-size: 1rem;
+  background: #a90000;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}

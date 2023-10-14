@@ -1,0 +1,128 @@
+.List-container {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#list-img {
+  width: 450px;
+}
+.User-Details {
+  margin-right: 5rem;
+}
+.User-Details h2 {
+  font-size: 1.7rem;
+  text-decoration: underline;
+  margin-top: 2rem;
+  color: #0d2342;
+}
+.User-list {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 2rem;
+  color: white;
+  border: none;
+  background-color: #0d2342;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.list-items {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-items button {
+  background-color: white;
+  border: none;
+  margin-left: 2rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+.list-items button:hover {
+  background-color: rgba(255, 255, 255, 0.829);
+}
+
+@media (max-width: 1058px) {
+  #list-img {
+    width: 370px;
+  }
+  .User-Details h2 {
+    font-size: 1.4rem;
+  }
+  .User-list {
+    padding: 1.5rem;
+    font-weight: 500;
+  }
+  .list-items {
+    font-size: 0.8rem;
+  }
+  .list-items button {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 868px) {
+  #list-img {
+    width: 400px;
+  }
+
+  .User-Details h2 {
+    font-size: 1.4rem;
+  }
+  .User-list {
+    padding: 0.8rem;
+  }
+  .list-items {
+    font-size: 0.8rem;
+  }
+  .list-items button {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 748px) {
+  #list-img {
+    width: 315px;
+  }
+  .User-Details h2 {
+    font-size: 1.2rem;
+  }
+  .User-list {
+    padding: 0.6rem;
+  }
+  .list-items {
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+  }
+  .list-items button {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 668px) {
+  .List-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .User-Details {
+    margin-right: 0rem;
+  }
+  .User-Details h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .User-list {
+    padding: 0.9rem;
+  }
+  .list-items {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  .list-items button {
+    font-size: 0.8rem;
+  }
+  .Popup-container p {
+    font-size: 1.1rem;
+  }
+}
